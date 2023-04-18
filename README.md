@@ -4,7 +4,7 @@
 
 ## Challenge 10 - HTML5 and CSS3 Course
 
-PProject developed during the HTML5 and CSS3 course, module 2 of 5, in Sep/22.
+Project developed during the HTML5 and CSS3 course, module 2 of 5, in Sep/22.
 
 🔗 [Click here to access](https://renato-albuquerque.github.io/PROJETO-ANDROID/)
 

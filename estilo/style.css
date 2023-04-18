@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*
-Paleta de cores, tons de verde do mais claro para o mais escuro:
+Color palette, shades of green from lightest to darkest:
 #C5ebd6
 #83e1ad
 #3ddc84
@@ -28,7 +28,7 @@ Paleta de cores, tons de verde do mais claro para o mais escuro:
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive; /* google fonts */
-    --fonte-android: 'Android', cursive; /* fonte externa, dafont.com, inserir @font-face */
+    --fonte-android: 'Android', cursive; /* External font, dafont.com, add @font-face */
 }
 
 * {
@@ -95,7 +95,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px; /* descolar a parte inferior do MAIN do rodapé */
+    margin-bottom: 30px; /* "Peel off" the bottom of the MAIN from the footer. */
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 10px;
@@ -149,7 +149,7 @@ main img {
     margin: auto;
 }
 
-main img.pequena { /* referente ao CLASS, imagem bugdroid */
+main img.pequena { /* Referring to CLASS, bugdroid image. */
     max-width: 350px;
     display: block;
     margin: auto;
@@ -174,7 +174,7 @@ aside {
 
 aside > ul {
     list-style-position: inside;
-    list-style-type: '\2714\00A0\00A0\00A0'; /* 00A0: Dar espaço entre o marcador e o texto. */
+    list-style-type: '\2714\00A0\00A0\00A0'; /* 00A0: Provide space between the bullet and the text. */
     columns: 2;    
 }
 
@@ -182,8 +182,8 @@ aside > h3 {
     background-color: var(--cor4);
     color: white;
     padding: 10px;
-    margin: -10px; /* Ordem: top, right, bottom, left. */
-    border-radius: 10px 10px 0px 0px; /* Ordem: top left, top right, bottom right, bottom left. */
+    margin: -10px; /* Order: top, right, bottom, left. */
+    border-radius: 10px 10px 0px 0px; /* Order: top left, top right, bottom right, bottom left. */
 }
 
 footer {
